@@ -10,3 +10,6 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(10, 5) == 50
+
+def test_multiply_by_zero():
+    assert multiply(10, 0) == 0
